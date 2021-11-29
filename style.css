@@ -178,7 +178,7 @@ nav{
     
 }
 
- .btn:hover{
+.btn:hover{
     background-color: var(--color-primary);
     border: 1px solid var(--color-secondary);
     border-width: 0 0 0 4px;
@@ -801,8 +801,7 @@ nav{
                         /*TABLET*/
                         /*TABLET*/
 @media screen and (max-width: 720px) {
-   
-   
+
     /* Header Section */
     nav .btn{
         display: none;
@@ -901,7 +900,7 @@ nav{
 
 
     /* SLIDE MENU WHEN THE HAMBURGER  IS CLICKED */
-   
+
     #toggle:checked ~ .nav-ul{
         transform: translateX(0);
     }
